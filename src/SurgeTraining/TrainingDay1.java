@@ -3,14 +3,18 @@ package SurgeTraining;
 import java.util.Scanner;
 
 public class TrainingDay1 {
+
     static String emailExtension = "surgetechinc.in";
+
     public static void main(String[] args) {
-        /*
+
         //==========Use of static====================
         System.out.println("Employee name : ");
         Scanner sc = new Scanner(System.in);
         String empName = sc.next();
         System.out.println("The Employee email ID is "+empName+"@"+emailExtension);
+
+
         //===================LOOPS========================
         System.out.println("Enter no of employees : ");
         int no_of_emps = sc.nextInt();
@@ -29,6 +33,7 @@ public class TrainingDay1 {
             System.out.println("employee number : "+j);
             j++;
         }while (j<=no_of_emps);
+
 
 //        -----------------Arrays---------------------
         int[][] employeeMarks = {{90,80,70},{95,85,75},{90,85,80}};
@@ -54,7 +59,7 @@ public class TrainingDay1 {
         }
 
 
-         */
+
         //=======================19 table using Loops===================
 
         //---------For loop--------------------
@@ -63,9 +68,9 @@ public class TrainingDay1 {
             System.out.println(val + " * " + i +" = " + val * i);
         }
         //----------------while loop---------------
-        int j = 1;
-        while(j<=10){
-            System.out.println(val + " * " + j +" = " + val * j);
+        int x = 1;
+        while(x<=10){
+            System.out.println(val + " * " + x +" = " + val * x);
             j++;
         }
 
