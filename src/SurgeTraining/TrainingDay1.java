@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class TrainingDay1 {
     static String emailExtension = "surgetechinc.in";
     public static void main(String[] args) {
+        /*
         //==========Use of static====================
         System.out.println("Employee name : ");
         Scanner sc = new Scanner(System.in);
@@ -29,7 +30,7 @@ public class TrainingDay1 {
             j++;
         }while (j<=no_of_emps);
 
-        //-----------------Arrays---------------------
+//        -----------------Arrays---------------------
         int[][] employeeMarks = {{90,80,70},{95,85,75},{90,85,80}};
         for (int empNames[]: employeeMarks) {
             for (int mark: empNames) {
@@ -37,5 +38,42 @@ public class TrainingDay1 {
             }
             System.out.println();
         }
+        int[][] marksArr = new int[3][3];
+        for (int i = 0; i < 3; i++) {
+            for (int k = 0; k < 3; k++) {
+                System.out.println("Enter marks of employee "+ (i+1) + " : ");
+                int marks = sc.nextInt();
+                marksArr[i][k] = marks;
+            }
+        }
+        for (int e = 0; e < 3; e++) {
+            for (int m = 0; m < 3; m++) {
+                System.out.print(marksArr[e][m]+" ");
+            }
+            System.out.println();
+        }
+
+
+         */
+        //=======================19 table using Loops===================
+
+        //---------For loop--------------------
+        int val = 19;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(val + " * " + i +" = " + val * i);
+        }
+        //----------------while loop---------------
+        int j = 1;
+        while(j<=10){
+            System.out.println(val + " * " + j +" = " + val * j);
+            j++;
+        }
+
+        //----------do-while loop----------------
+        int k = 1;
+        do {
+            System.out.println(val + " * " + k +" = " + val * k);
+            k++;
+        }while(k<=10);
     }
 }
