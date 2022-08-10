@@ -71,7 +71,7 @@ public class TrainingDay1 {
         int x = 1;
         while(x<=10){
             System.out.println(val + " * " + x +" = " + val * x);
-            j++;
+            x++;
         }
 
         //----------do-while loop----------------
